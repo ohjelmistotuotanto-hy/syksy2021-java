@@ -14,6 +14,7 @@ public class OstoskoriTest {
         kori = new Ostoskori();
     }
 
+    // step 1
     @Test
     public void ostoskorinHintaJaTavaroidenMaaraAlussa() { 
         assertEquals(0, kori.hinta());
